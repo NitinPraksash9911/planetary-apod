@@ -1,2 +1,2 @@
 rootProject.name = "PlanetaryApod"
-include ':app'
+include (":app")
