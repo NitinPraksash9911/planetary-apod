@@ -6,13 +6,15 @@ This app gives you daily a new picture of the Astronomy.
 
 ## Tech-Stack
 
-1. MVVM
-2. Dagger-Hilt
-3. RoomDB
-4. Kotlin-Coroutines
-5. Retrofit
-6. Glide
-7. DataBinding
+1. [MVVM](https://developer.android.com/jetpack/guide?gclsrc=aw.ds&gclid=Cj0KCQjw2tCGBhCLARIsABJGmZ5f0uH9NxQ9nDG4KppPROXF8dv4IWAFsC1j0OFStbNxAZWrpetIof0aApnxEALw_wcB)
+2. [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+3. [RoomDB](https://developer.android.com/training/data-storage/room)
+4. [Kotlin-Coroutines](https://developer.android.com/kotlin/coroutines)
+5. [Retrofit](https://square.github.io/retrofit/)
+6. [Glide](https://github.com/bumptech/glide)
+7. [DataBinding](https://developer.android.com/topic/libraries/data-binding)
+
+
 
 
 
