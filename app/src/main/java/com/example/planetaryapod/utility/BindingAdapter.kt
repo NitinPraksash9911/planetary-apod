@@ -1,4 +1,4 @@
-package com.example.planetaryapod.extentionfunc
+package com.example.planetaryapod.utility
 
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter

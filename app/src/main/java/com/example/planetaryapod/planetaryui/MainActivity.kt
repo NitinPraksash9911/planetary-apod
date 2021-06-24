@@ -11,9 +11,9 @@ import com.example.planetaryapod.arch.Result.Status.LOADING
 import com.example.planetaryapod.arch.Result.Status.SUCCESS
 import com.example.planetaryapod.databinding.ActivityMainBinding
 import com.example.planetaryapod.datasource.model.Planetary
-import com.example.planetaryapod.extentionfunc.hide
-import com.example.planetaryapod.extentionfunc.show
-import com.example.planetaryapod.extentionfunc.snack
+import com.example.planetaryapod.utility.hide
+import com.example.planetaryapod.utility.show
+import com.example.planetaryapod.utility.snack
 import com.example.planetaryapod.planetaryui.viewmodel.PlanetaryViewModel
 import dagger.hilt.android.AndroidEntryPoint
 

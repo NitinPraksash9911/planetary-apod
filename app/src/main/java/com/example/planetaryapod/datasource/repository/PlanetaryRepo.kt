@@ -4,6 +4,8 @@ import androidx.lifecycle.liveData
 import androidx.lifecycle.map
 import com.example.planetaryapod.arch.Result
 import com.example.planetaryapod.datasource.model.Planetary
+import com.example.planetaryapod.utility.format
+import com.example.planetaryapod.utility.getCurrentDateTime
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
 import kotlin.coroutines.CoroutineContext
@@ -37,7 +39,16 @@ class PlanetaryRepo @Inject constructor(
 
         } else if (remoteData.status == Result.Status.ERROR) {
 
-            emit(Result.error<Planetary>(remoteData.message!!))
+            val dateInString = getCurrentDateTime().format("yyyy-MM-dd")
+
+            if (localData.value != null && localData.value!!.date.equals(dateInString).not()) {
+
+                emit(Result.error<Planetary>("We are not connected to the internet, showing you the last image we have"))
+            } else {
+
+                emit(Result.error<Planetary>(remoteData.message!!))
+
+            }
         }
 
     }
