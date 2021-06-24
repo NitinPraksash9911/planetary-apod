@@ -2,6 +2,7 @@
 
 This app gives you daily a new picture of the Astronomy. 
 
+<img src="https://user-images.githubusercontent.com/32475878/123253386-0cbcfa00-d50b-11eb-962c-9755b362dd7c.jpeg" alt="photo_2021-06-24 16.40.03"  width="200" height="400"/>
 
 
 ## Tech-Stack
