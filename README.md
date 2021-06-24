@@ -41,5 +41,5 @@ Follow this instruction to use this repo:-
 1. Pull to refresh functionality when request is fail due connectivity.
 2. Unit test cases to verify that the logic of individual units is correct.
 3. Sometime apodApi gives you the video(url of YouTube) of astronomy instead of image so you can put a check wether to show video or image by using `media_type` key returned in the respone.
-   Example:- For videos `media_type = videos` and for image  `media_type = image 
+   Example:- For videos `"media_type" : "video"` and for image  `"media_type" : "image"` 
 4. UI can be enhance by adding some animations.
